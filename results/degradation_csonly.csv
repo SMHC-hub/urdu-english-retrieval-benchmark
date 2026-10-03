@@ -1,0 +1,17 @@
+dataset,model,condition,n_cs,EN_subset,CS,drop_%
+scifact,intfloat/e5-base-v2,ur_en,300,0.7105,0.6498,8.5
+scifact,BAAI/bge-base-en-v1.5,ur_en,300,0.7376,0.5963,19.2
+scifact,intfloat/multilingual-e5-base,ur_en,300,0.6887,0.6623,3.8
+scifact,BAAI/bge-m3,ur_en,300,0.6437,0.6422,0.2
+scifact,intfloat/e5-base-v2,roman,300,0.7105,0.6209,12.6
+scifact,BAAI/bge-base-en-v1.5,roman,300,0.7376,0.6251,15.3
+scifact,intfloat/multilingual-e5-base,roman,300,0.6887,0.6143,10.8
+scifact,BAAI/bge-m3,roman,300,0.6437,0.5584,13.2
+nfcorpus,intfloat/e5-base-v2,ur_en,136,0.3562,0.2916,18.1
+nfcorpus,BAAI/bge-base-en-v1.5,ur_en,136,0.3779,0.2999,20.6
+nfcorpus,intfloat/multilingual-e5-base,ur_en,136,0.3038,0.2786,8.3
+nfcorpus,BAAI/bge-m3,ur_en,136,0.3071,0.3011,2.0
+nfcorpus,intfloat/e5-base-v2,roman,136,0.3518,0.2946,16.3
+nfcorpus,BAAI/bge-base-en-v1.5,roman,136,0.3722,0.3026,18.7
+nfcorpus,intfloat/multilingual-e5-base,roman,136,0.2996,0.2537,15.3
+nfcorpus,BAAI/bge-m3,roman,136,0.3048,0.2679,12.1

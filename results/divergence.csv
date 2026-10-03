@@ -1,0 +1,5 @@
+model,cos_EN_UR,cos_EN_ROM,drift_UR,drift_ROM
+e5-base-v2,0.9066,0.9042,0.0934,0.0958
+bge-base-en-v1.5,0.8083,0.8199,0.1917,0.1801
+multilingual-e5-base,0.9433,0.9156,0.0567,0.0844
+bge-m3,0.9323,0.7937,0.0677,0.2063

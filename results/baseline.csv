@@ -1,0 +1,9 @@
+dataset,model,condition,nDCG@10,Recall@10,Recall@100,MRR@10
+scifact,intfloat/e5-base-v2,EN,0.71047,0.84639,0.956,0.67362
+scifact,BAAI/bge-base-en-v1.5,EN,0.73763,0.86589,0.97,0.70037
+scifact,intfloat/multilingual-e5-base,EN,0.68874,0.794,0.93933,0.66221
+scifact,BAAI/bge-m3,EN,0.64366,0.78344,0.90367,0.60827
+nfcorpus,intfloat/e5-base-v2,EN,0.35343,0.16908,0.32418,0.56225
+nfcorpus,BAAI/bge-base-en-v1.5,EN,0.3681,0.1756,0.332,0.56857
+nfcorpus,intfloat/multilingual-e5-base,EN,0.31127,0.1502,0.28022,0.49469
+nfcorpus,BAAI/bge-m3,EN,0.31411,0.14745,0.28259,0.52316

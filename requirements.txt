@@ -1,0 +1,32 @@
+﻿# AI2ML Code-Switching Benchmark — Python Requirements
+# Generated from: 00_smoke_test.py, 01-08 notebooks
+#
+# Install with: pip install -r requirements.txt
+# Tested on Python 3.10+ with CUDA 12.x
+
+# ── Dense Retrieval & BEIR Framework ─────────────────────────────────────────
+beir>=2.0.0
+sentence-transformers>=3.0.0
+
+# ── LLM API — Code-Switched Query Generation ──────────────────────────────────
+groq>=0.9.0
+google-generativeai>=0.8.0
+
+# ── Data Science & Analysis ───────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+openpyxl>=3.1.0
+
+# ── Deep Learning (GPU) ───────────────────────────────────────────────────────
+# PyTorch: install manually for your CUDA version
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch>=2.3.0
